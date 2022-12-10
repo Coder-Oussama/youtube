@@ -1,0 +1,168 @@
+@import url('http://fonts.googleapis.com/css?family=El+Messiri');
+
+body{
+    font-family: 'El Messiri',sans-serif;
+    background-color: #fafafa;
+    direction: rtl;
+}
+
+button{
+    color: rgb(207, 33, 33) !important;
+    background-color: transparent !important;
+    border-color: rgb(207, 33, 33) !important;
+}
+button:hover{
+    color: #fff !important;
+    background-color: rgb(207, 33, 33) !important;
+}
+#top-menu .bg-light{
+    background-color: white !important;
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+a{
+    color: #000;
+    text-decoration: none !important;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link {
+    color: #fff;
+    background-color: rgb(207, 33, 33);
+    border-radius: 5px;
+}
+.modal .modal-header .close:hover{
+    color: rgb(207, 33, 33) !important;
+    background-color: transparent !important;
+}
+.navbar .login {
+    color: rgb(207, 33, 33);
+}
+input.form-control:focus,
+button:focus{
+     box-shadow: none !important;
+}
+.card .card-icons{
+    position: relative;
+}
+time{
+    position:absolute;
+    bottom: 10px;
+    left: 7px;
+    background-color:black;
+    color: #fff;
+    padding:0px 3px;
+    border-radius: 3px;
+}
+.card .fa-play{
+    position: absolute;
+    top: 43%;
+    right: 41%;
+    color: #2c3131c7;
+    display: none;
+}
+.card:hover .fa-play{
+    display: inline;
+}
+.card:hover{
+    transform: translateY(-1.2%);
+}
+.card{
+    transition: transform .3s;
+}
+.card .card-img-top{
+    height: 157.08px;
+}
+#top-menu .fa-bars {
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%; /*طول القائمة*/
+    background-color: #fff;
+    overflow: hidden; /*أخفي جميع العناصر التي تتخطى 100 */
+    padding-bottom: 60px;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+.sidebar .purple {
+    color:rgba(233, 4, 4, 0.801);
+}
+.sidebar .list-group-item:hover{
+    color: #fff;
+    background-color: rgb(207, 33, 33);
+}
+.sidebar .list-group-item:hover .purple {
+    color: #fff;
+}
+.sidebar .list-group-item {
+    width: 17rem;
+}
+#wrap.toggler .sidebar {
+    right: 0rem;
+}
+.sidebar::-webkit-scrollbar{
+    background: rgb(230, 230, 230);
+    width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background: rgb(179, 179, 179);
+    width: 8px;
+}
+.layer {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    display: none;
+}
+.navbar .search-icon{
+    color: rgb(207, 33, 33);
+    cursor: pointer;
+    padding: 15px 10px;
+    position: absolute;
+    top: 5px;
+    left: 132px;
+    display: none;
+}
+.navbar .search-icon:hover{
+    color: #fff;
+    background-color:rgb(207, 33, 33);
+    
+}
+.search-input{
+    position: fixed;
+    top: 55px;
+    border: none;
+    padding: 6px 23px;
+    height: 50px;
+    background-color: #efeeee;
+    display: none;
+    z-index: 1;
+}
+.search-input:focus{
+    background-color: #efeeee;
+}
+.container-fluid{
+    padding: 0px;
+    overflow: hidden;
+}
+@media (max-width:1108px){
+    .navbar .collapse .form-inline{
+        display: none;
+    }
+    .navbar .search-icon{
+        display: inline;
+    } 
+}
+@media (min-width:1105px){
+    .search-input{
+        display: none !important;
+    }
+}

@@ -1,0 +1,44 @@
+ .card:hover{
+    transform: none !important;
+}
+.watch-page .watch-icons{
+    position: absolute;
+    bottom: 5px;
+}
+.watch-icons i:hover{
+    cursor: pointer;
+}
+.watch-page #more{
+    display: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.card-inner{
+    display: none;
+}
+
+.public-comment .card .btn:hover{
+    color: white;
+    background-color: rgb(207, 33, 33);
+}
+
+time{
+    left: 24px;
+}
+.watch-page .fa-play{
+    right: 46% !important;
+}
+@media (min-width: 992px){
+    time{
+        font-size: 13px;
+    }
+    .fa-play{
+        font-size: 20px !important;
+    }
+}
+@media (max-width: 992px){
+    #myBtn{
+        margin-bottom: 60px !important;
+    }
+}

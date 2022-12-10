@@ -1,0 +1,17 @@
+.channel-page .follow button{
+    color: #fff !important;
+    background-color: rgb(207, 33, 33) !important;
+}
+.channel-page .vedio-section .card:hover{
+    transform: none !important;
+}
+time{
+    font-size: 13px;
+}
+@media (max-width:593px){
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 13px;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+}
